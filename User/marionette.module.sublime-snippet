@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1:APP_NAME}.module("${2:NAME.SPACE}", function(${3:LOCAL_MODULE_NAME}, App, Backbone, Marionette, \$, _){
+	${4://TODO: Impliment me...}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
+

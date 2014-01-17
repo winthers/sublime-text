@@ -1,0 +1,36 @@
+[
+    { "keys": ["j", "j"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["ctrl+k"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { 
+        "keys": ["ctrl+,", "<character>"], 
+        "command": "easy_motion",
+        "args": {"select_text": false} 
+    },
+    { 
+        "keys": ["ctrl+,", "enter"], 
+        "command": "easy_motion",
+        "args": {"select_text": false, "character": "enter"}
+    },
+    { 
+        "keys": ["ctrl+shift+,", "<character>"], 
+        "command": "easy_motion",
+        "args": {"select_text": true} 
+    },
+    { 
+        "keys": ["ctrl+shift+,", "enter"], 
+        "command": "easy_motion",
+        "args": {"select_text": true, "character": "enter"}
+    }
+]
