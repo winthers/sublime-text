@@ -21,6 +21,7 @@
 
 * Javascript
 
+	* [Console log](#console-log): 			**con**
 	* [Object function](#object-function): 	**of**
 	* [Object hash](#object-hash):  		**oh**
 	* [Key Value](#Key-Value): 				**kv**
@@ -112,6 +113,13 @@ _.extend(Object.prototype, {
 ```
 
 ## Javascript
+
+#### Console log
+trigger **con**
+
+```js
+console.log( 'value' );
+```
 
 #### Object Function
 trigger **of**
