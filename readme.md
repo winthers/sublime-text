@@ -104,14 +104,6 @@ _.name(data, function(args){
 })
 ```
 
-@ extproto
-
-```js
-_.extend(Object.prototype, {
-
-})
-```
-
 ## Javascript
 
 #### Console log
